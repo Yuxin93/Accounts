@@ -15,8 +15,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        mBinding?.lifecycleOwner = this
-        mBinding?.setVariable(BR.userInfo, userViewModel)
 
 
     }
